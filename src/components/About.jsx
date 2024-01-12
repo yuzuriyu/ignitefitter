@@ -16,7 +16,7 @@ export default function About() {
         <div>
           <h1 className="text-lg font-bold mb-2">Personalised Workouts</h1>
           <p>
-            {` StartFitter’s Expert Coaches are certified fitness pros dedicated to
+            {` IgniteFitter's Expert Coaches are certified fitness pros dedicated to
             guiding you towards your health goals.`}
           </p>
         </div>

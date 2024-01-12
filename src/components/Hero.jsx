@@ -12,7 +12,7 @@ export default function Hero() {
             trainers customize workouts to your ability, ensuring you’re as
             unbeatable as Saitama!
           </p>
-          <button className="bg-yellow-400 text-white rounded-lg px-12 py-4">
+          <button className="bg-yellow-400 text-white rounded-full px-12 py-4 hover:bg-yellow-500">
             Learn More
           </button>
         </div>
