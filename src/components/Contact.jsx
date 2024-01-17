@@ -41,7 +41,7 @@ export default function Contact() {
           <p className="font-bold">Message</p>
           <textarea className="border flex-1"></textarea>
         </div>
-        <button className="rounded-full bg-black  text-white py-2 mt-4 px-14">
+        <button className="rounded-full bg-black  text-white py-2 mt-4 px-14 hover:opacity-70">
           Register
         </button>
       </div>

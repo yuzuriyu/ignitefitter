@@ -21,7 +21,7 @@ export default function Pricing() {
             <p className="py-4">
               <span className="font-bold text-3xl">$160</span> per month
             </p>
-            <button className="bg-black text-white py-2 rounded-full w-full">
+            <button className="bg-black text-white py-2 rounded-full w-full hover:opacity-70">
               Get Started
             </button>
           </div>
@@ -42,7 +42,7 @@ export default function Pricing() {
             <p className="py-4">
               <span className="font-bold text-3xl">$300</span> per month
             </p>
-            <button className="bg-black text-white py-2 rounded-full w-full">
+            <button className="bg-black text-white py-2 rounded-full w-full hover:opacity-70">
               Get Started
             </button>
           </div>
@@ -64,7 +64,7 @@ export default function Pricing() {
             <p className="py-4">
               <span className="font-bold text-3xl">$680</span> per month
             </p>
-            <button className="bg-black text-white py-2 rounded-full w-full">
+            <button className="bg-black text-white py-2 rounded-full w-full hover:opacity-70">
               Get Started
             </button>
           </div>

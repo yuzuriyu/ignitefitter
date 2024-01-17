@@ -72,7 +72,7 @@ export default function SelectedBlog() {
             <p className="border-b text-sm border-black">Fitness</p>
           </div>
           <div
-            className="flex items-center pt-8 group"
+            className="flex items-center pt-8 group cursor-pointer"
             onClick={() => goBack()}
           >
             <p className="mr-2">←</p>
