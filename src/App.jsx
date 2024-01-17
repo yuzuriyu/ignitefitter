@@ -6,6 +6,7 @@ import PricingPage from "./pages/PricingPage";
 import BlogPage from "./pages/BlogPage";
 import SelectedBlogPage from "./pages/SelectedBlogPage";
 import BlogContextProvider from "./context/BlogContext";
+import ContactPage from "./pages/ContactPage";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:id" element={<SelectedBlogPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </div>
     </BlogContextProvider>

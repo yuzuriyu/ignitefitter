@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className="absolute top-8 w-11/12 md:w-10/12 left-1/2 -translate-x-1/2 flex justify-between">
-      <img src={logo} alt="" className="w-[150px]" />
+      <Link to={"/"}>
+        <img src={logo} alt="" className="w-[150px]" />
+      </Link>
+
       <div className="hidden md:block">
         <div className="flex">
           <Link to={"/"}>

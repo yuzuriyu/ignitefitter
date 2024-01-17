@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PricingV2() {
   return (
-    <div className="w-11/12 m-auto md:w-10/12 py-20">
+    <div className="w-11/12 m-auto md:w-10/12 py-40">
       <h1 className="text-center text-4xl my-8 font-bold lg:w-1/2 m-auto">
         Pricing
       </h1>

@@ -33,7 +33,7 @@ export default function Footer() {
             <input
               type="text"
               placeholder="Type your email"
-              className="py-2 px-4"
+              className="py-2 px-4 focus:outline-none"
             />
             <button className="bg-yellow-300 rounded-tr-full rounded-br-full py-2 px-4">
               Subscribe
